@@ -1,3 +1,4 @@
+#made by kisalay Ghosh, Souvik Ganguly
 import numpy
 from pygame import mixer
 import time
@@ -15,8 +16,6 @@ label.pack(side=TOP)
 filename = PhotoImage(file="E:\python\Driver Cam\demo.png")
 background_label = Label(frame,image=filename)
 background_label.pack(side=TOP)
-
-
 
 def hel():
    help(cv2)
